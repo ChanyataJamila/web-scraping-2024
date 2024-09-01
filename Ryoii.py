@@ -18,4 +18,3 @@ page = requests.get(ryoii)
 soup = BeautifulSoup(page.content, "html.parser")
 content = soup.find_all(class_ = "caption")
 print(content)
-##
